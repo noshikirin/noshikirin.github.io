@@ -1,0 +1,19 @@
+# Secrets: never commit these (see SECURITY.md)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and build output (stack-specific entries get added later)
+node_modules/
+dist/
+
+# Editor (VS Code): personal settings stay local
+.vscode/*
+!.vscode/extensions.json
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
